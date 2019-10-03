@@ -1,0 +1,15 @@
+{
+    "HOME": {
+        "title": "تسجيل الدخول",
+        "customerapp": "تطبيق العملاء",
+        "temp":"مؤقت",
+        "email":"البريد الإلكتروني",
+        "mobile":"التليفون المحمول",
+        "withcode": "<br><br>You are <b>epic</b>!",
+        "btn": "Show Alert"
+    },
+    "ALERT": {
+        "header": "Error",
+        "msg": "There was a problem with your operation"
+    }
+}

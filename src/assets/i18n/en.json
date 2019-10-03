@@ -1,0 +1,16 @@
+
+{
+    "HOME": {
+        "title": "LOGIN",
+        "customerapp": "Customer App",
+        "temp":"TEMP",
+        "email":"Email",
+        "mobile":"Mobile",
+        "withcode": "<br><br>You are <b>epic</b>!",
+        "btn": "Show Alert"
+    },
+    "ALERT": {
+        "header": "Error",
+        "msg": "There was a problem with your operation"
+    }
+}

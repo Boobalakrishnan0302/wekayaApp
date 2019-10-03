@@ -1,0 +1,113 @@
+
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+          <!-- <ion-back-button defaultHref="/"></ion-back-button> -->
+          <ion-menu-button></ion-menu-button>
+          
+              <ion-back-button defaultHref="action/first"></ion-back-button>
+            
+        </ion-buttons>
+        <ion-grid>
+          <ion-row>
+            
+            <ion-col><ion-title>MY ORDERS</ion-title> </ion-col>
+            
+          </ion-row>
+
+        </ion-grid>
+       
+      </ion-toolbar>
+
+</ion-header>
+<ion-content>
+    <ion-grid>
+      <ion-row >
+        <!-- <ion-col col-6>
+          <ion-button expand='full' color='primary'>MY ORDERS</ion-button>
+        </ion-col> -->
+        <ion-col col-6>
+          <ion-button expand='full' color='success'>ORDER HISTORY</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-grid>
+      <ion-row flex-wrap: nowrap style="border: 1px solid;background-color:lightblue">
+        <ion-col style="border: 1px solid;background-color:lightblue">
+          ORDERNO:1234
+        </ion-col>
+        <ion-col style="border: 1px solid;background-color:lightblue">
+          DATE:19/09/19
+        </ion-col>
+      <!-- <ion-col>style="background-color: lightgrey;border: 1px solid;border-bottom-left-radius: 10px;"</ion-col> -->
+      </ion-row>
+      <ion-row  flex-wrap: nowrap  style="background-color: lightgrey;border: 1px solid;">
+        <ion-col size="2"   >No</ion-col>
+        <ion-col size="5"> ITEM </ion-col>
+        <ion-col>OTY </ion-col>
+        <ion-col size="3">PRC</ion-col>
+      
+      </ion-row>
+      <ion-row  flex-wrap: nowrap  style="border: 1px solid; border-color:green">
+          <ion-col size="2" style="border: 1px solid; border-color:green">1 </ion-col>
+          <ion-col size="5" style="border: 1px solid; border-color:green">Plastic Bag </ion-col>
+          <ion-col style="border: 1px solid; border-color:green">10 </ion-col>
+          <ion-col size="3" style="border: 1px solid; border-color:green">234 </ion-col>
+        
+        </ion-row>
+        <ion-row  flex-wrap: nowrap>
+            <ion-col style="border: 1px solid; border-color:green">2</ion-col>
+            <ion-col size="5" style="border: 1px solid; border-color:green">Plastics </ion-col>
+            <ion-col style="border: 1px solid; border-color:green">15 </ion-col>
+            <ion-col size="3" style="border: 1px solid; border-color:green">20 </ion-col>
+          
+          </ion-row>
+    </ion-grid>
+  
+    <ion-grid>
+        <ion-row>
+          <ion-col></ion-col>
+            <ion-col col-4> 
+              <ion-button color="primary">ADD </ion-button>
+          </ion-col>
+        <ion-col col-4>
+              <ion-button color="danger">REMOVE</ion-button>
+       </ion-col>
+       <ion-col> </ion-col>
+          </ion-row>
+        </ion-grid> 
+  
+        <ion-grid>
+            <ion-row>
+              <ion-col></ion-col>
+                <ion-col col-3>Total Amount</ion-col>
+            <ion-col col-3>
+                  2456
+           </ion-col>
+           <ion-col> </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col></ion-col>
+                <ion-col col-3>Tax 5%</ion-col>
+                <ion-col col-3>230</ion-col>
+                <ion-col></ion-col>
+              </ion-row>
+              <ion-row>
+                  <ion-col></ion-col>
+                  <ion-col col-3>NetAmount</ion-col>
+                  <ion-col col-3>2686</ion-col>
+                  <ion-col></ion-col>
+                </ion-row>
+  
+            </ion-grid> 
+            <ion-grid>
+              <ion-row>
+                <ion-col></ion-col>
+                <ion-col col-4><ion-button color="primary" expand="block">CheckOut</ion-button></ion-col>
+                <ion-col></ion-col>
+              </ion-row>
+            </ion-grid>
+          
+  
+  </ion-content>
+  

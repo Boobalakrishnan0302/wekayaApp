@@ -1,0 +1,96 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+          <!-- <ion-back-button defaultHref="/"></ion-back-button> -->
+          <ion-menu-button></ion-menu-button>
+          
+              <ion-back-button defaultHref="action/first"></ion-back-button>
+            
+        </ion-buttons>
+        <ion-grid>
+          <ion-row>
+            <ion-col col-2></ion-col>
+            <ion-col><ion-title>PRODUCTS</ion-title> </ion-col>
+            <ion-col col-2></ion-col>
+          </ion-row>
+
+        </ion-grid>
+        
+        <ion-button color="primary" slot="end">My Orders</ion-button>
+      </ion-toolbar>
+
+</ion-header>
+
+
+<ion-content>
+
+  <ion-grid>
+      <ion-row>
+      <ion-col size="4">
+        <img class="custom-img" src="/assets/download.jpg" alt="" />  
+      </ion-col>
+      <ion-col size="4">
+      <h3>Product 1</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut nisi, atque debitis reiciendis ab amet magni libero id sit. Assumenda ipsam unde hic. Numquam recusandae sed illum quo error natus!</p>
+      </ion-col>
+    <ion-col size="4">
+        <h3>Qantity</h3>
+        <ion-list lines="none">
+          <!-- <ion-item>
+             
+          </ion-item> -->
+          <ion-item>
+              <input type="button"  value="-">
+              <!-- <div class="row">
+                  <div class='col-sm-5'>
+                     <input type="text" class='form-control' value="10" ></input>
+                  </div>
+             </div> -->
+              <input id="quantityInCart" class="count" type="text" name="quantity" value="101" style="width:''">
+              <input type="button" value="+">
+          </ion-item>
+          <ion-item>
+              <ion-button color="success" (click)="presentAlert()"> Order </ion-button>
+          </ion-item>
+
+        </ion-list>
+  </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+  <ion-grid>
+      <ion-row>
+      <ion-col size="4">
+        
+          <img class="custom-img" src="./assets/download1.jpg" alt="" />  
+        
+      </ion-col>
+      <ion-col size="4">
+        <h3>Product 2</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut nisi, atque debitis reiciendis ab amet magni libero id sit. Assumenda ipsam unde hic. Numquam recusandae sed illum quo error natus!</p>
+      </ion-col>
+      <ion-col size="4">
+        <ion-list lines="none">
+          <ion-item>
+              <h1>Qantity</h1>
+          </ion-item>
+          <ion-item>
+              <input type="button"  value="-">
+              <input id="quantityInCart" class="count" type="text" name="quantity" value="10">
+              <input type="button" value="+">
+          </ion-item>
+          <ion-item>
+              <ion-button color="success" (click)="presentAlert()"> Order </ion-button>
+          </ion-item>
+
+        </ion-list>
+  </ion-col>
+    </ion-row>
+
+  </ion-grid>
+   
+
+</ion-content>
+
+

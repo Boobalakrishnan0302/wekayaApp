@@ -1,9 +1,9 @@
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
-
 export const environment = {
-  production: false
+  production: false,
+  APP_URL : 'http://192.168.1.55/wms/fp2-development/admin-web/index.php/api/customer/login'
 };
 
 /*
